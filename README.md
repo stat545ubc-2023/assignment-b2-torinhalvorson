@@ -18,7 +18,7 @@ from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-# devtools::install_github("torinhalvorson/assignmentb2torinhalvorson", ref = "0.1.0")
+# devtools::install_github("stat545ubc-2023/assignmentb2torinhalvorson")
 ```
 
 ## Example
@@ -27,7 +27,11 @@ This is a basic example which shows you how to use the stdev function to
 calculate the standard deviation of a
 
 ``` r
-# library(assignmentb2torinhalvorson)
-# vec <- c(1,10,20,24,25)
-# stdev(vec)
+library(assignmentb2torinhalvorson)
+vec <- c(1,10,20,24,25)
+stdev(vec)
+#> [1] "Mean: 16"
+#> [1] "Length: 5"
+#> [1] "Standard deviation:"
+#> [1] 10.27132
 ```
