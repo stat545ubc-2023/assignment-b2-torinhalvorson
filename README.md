@@ -18,7 +18,7 @@ from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-# devtools::install_github("assignmentb2torinhalvorson", ref = "0.1.0")
+# devtools::install_github("torinhalvorson/assignmentb2torinhalvorson", ref = "0.1.0")
 ```
 
 ## Example

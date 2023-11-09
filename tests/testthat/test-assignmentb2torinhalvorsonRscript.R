@@ -1,5 +1,3 @@
-use_package("tidyverse")
-
 # Test that the function output is the same regardless of the order of the numbers in the vector
 test_that("test1", {expect_equal(stdev(c(1,3,5,7,10)), stdev(c(10,7,5,3,1)))})
 
