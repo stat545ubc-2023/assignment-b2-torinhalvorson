@@ -1,1 +1,33 @@
 
+# assignmentb2torinhalvorson
+
+The goal of assignmentb2torinhalvorson is to calculate the standard
+deviation of a numeric vector, using the key function stdev(). This
+function takes a numeric parameter ‘w’ as input, removes missing values
+automatically, and returns the standard deviation. The mean and length
+of the vector are also printed. The function will automatically return
+an error if the input is not numeric. By using this package, the user
+can easily evaluate the standard deviation of any vector, including
+those with missing values, which has broad applications to statistical
+analysis.
+
+## Installation
+
+You can install the development version of assignmentb2torinhalvorson
+from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+# devtools::install_github("assignmentb2torinhalvorson", ref = "0.1.0")
+```
+
+## Example
+
+This is a basic example which shows you how to use the stdev function to
+calculate the standard deviation of a
+
+``` r
+# library(assignmentb2torinhalvorson)
+# vec <- c(1,10,20,24,25)
+# stdev(vec)
+```
